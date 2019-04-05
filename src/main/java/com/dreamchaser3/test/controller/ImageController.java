@@ -18,7 +18,7 @@ import java.io.IOException;
 @Slf4j
 @Controller
 public class ImageController {
-    private static final String FILE_NAME = "{filename:.+}";
+    private static final String FILE_NAME = "{fileName:.+}";
     @Autowired
     private ImageService imageService;
 
